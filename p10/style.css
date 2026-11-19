@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #243b55;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-button a {
+    background-color: white;
+    color: #243b55;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #eaf0f6;
+}
+
+#about {
+    background-color: white;
+}
+
+#projects {
+    background-color: #eaf0f6;
+}
+
+.footer {
+    background-color: #243b55;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 15px;
+}
